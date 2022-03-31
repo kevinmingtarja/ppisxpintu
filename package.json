@@ -14,7 +14,8 @@
     "@plasmicapp/react-web": "^0.2.91",
     "next": "12.1.4",
     "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "react-dom": "18.0.0",
+    "react-papaparse": "^4.0.2"
   },
   "devDependencies": {
     "eslint": "8.12.0",

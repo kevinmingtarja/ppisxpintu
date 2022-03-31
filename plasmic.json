@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -32,7 +32,8 @@
       "images": [],
       "indirect": true,
       "globalContextsFilePath": "",
-      "codeComponents": []
+      "codeComponents": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "tKTnPCKDkyqVsBLoY29HS4",
@@ -211,19 +212,6 @@
           "componentType": "component"
         },
         {
-          "id": "FR5Q4W7re2-kzK",
-          "name": "Features",
-          "type": "managed",
-          "projectId": "tKTnPCKDkyqVsBLoY29HS4",
-          "renderModuleFilePath": "plasmic/simple_light_landing_page/PlasmicFeatures.jsx",
-          "importSpec": {
-            "modulePath": "../pages/features.jsx"
-          },
-          "cssFilePath": "plasmic/simple_light_landing_page/PlasmicFeatures.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
-        {
           "id": "O5PofbKZuSyR-q",
           "name": "Section",
           "type": "managed",
@@ -263,6 +251,32 @@
           "scheme": "blackbox",
           "componentType": "component",
           "plumeType": "text-input"
+        },
+        {
+          "id": "FR5Q4W7re2-kzK",
+          "name": "Scores",
+          "type": "managed",
+          "projectId": "tKTnPCKDkyqVsBLoY29HS4",
+          "renderModuleFilePath": "plasmic/simple_light_landing_page/PlasmicScores.jsx",
+          "importSpec": {
+            "modulePath": "../pages/scores.jsx"
+          },
+          "cssFilePath": "plasmic/simple_light_landing_page/PlasmicScores.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "bhIPBS0rHs",
+          "name": "ScoreCard",
+          "type": "managed",
+          "projectId": "tKTnPCKDkyqVsBLoY29HS4",
+          "renderModuleFilePath": "plasmic/simple_light_landing_page/PlasmicScoreCard.jsx",
+          "importSpec": {
+            "modulePath": "ScoreCard.jsx"
+          },
+          "cssFilePath": "plasmic/simple_light_landing_page/PlasmicScoreCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
@@ -401,7 +415,13 @@
       ],
       "indirect": false,
       "globalContextsFilePath": "",
-      "codeComponents": []
+      "codeComponents": [
+        {
+          "id": "7w1t5zkJjg",
+          "name": "Scores",
+          "componentImportPath": "./components/Scores"
+        }
+      ]
     }
   ],
   "globalVariants": {

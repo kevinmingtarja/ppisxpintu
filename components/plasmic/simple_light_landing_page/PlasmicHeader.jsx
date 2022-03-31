@@ -77,7 +77,7 @@ function PlasmicHeader__RenderFunc(props) {
         <Button
           className={classNames("__wab_instance", sty.button__h2EMe)}
           color={"clear"}
-          link={"/features"}
+          link={"/scores"}
           size={"compact"}
         >
           {"Features"}
