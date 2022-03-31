@@ -1,0 +1,99 @@
+.root:global(.__wab_instance) {
+  position: relative;
+}
+.freeBox__xjQp {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.freeBox__w1Pwo {
+  flex-direction: column;
+  display: flex;
+}
+.freeBox__w1Pwo > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.freeBox__w1Pwo > :global(.__wab_flex-container) > *,
+.freeBox__w1Pwo > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__w1Pwo > :global(.__wab_flex-container) > picture > img,
+.freeBox__w1Pwo
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.slotTargetName {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--token-NEon4Y--Z);
+}
+.text__thNsK {
+  font-size: 48px;
+}
+.freeBox__leJh {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+}
+.freeBox__leJh > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.freeBox__leJh > :global(.__wab_flex-container) > *,
+.freeBox__leJh > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__leJh > :global(.__wab_flex-container) > picture > img,
+.freeBox__leJh
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.bullet__m5C4:global(.__wab_instance) {
+  position: relative;
+}
+.bullet__tGbQ9:global(.__wab_instance) {
+  position: relative;
+}
+.bullet___00GkP:global(.__wab_instance) {
+  position: relative;
+}
+.freeBox___1QAl1 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: calc(13px + 8px) !important;
+}
+.button__bEvS2:global(.__wab_instance) {
+  position: relative;
+}
+.svg__anxQj {
+  position: relative;
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+}
+.svg__b3EkQ {
+  position: relative;
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+}
+.svg___58QCf {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  object-fit: cover;
+}
