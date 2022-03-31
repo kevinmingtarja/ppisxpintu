@@ -450,34 +450,6 @@ function PlasmicFooter__RenderFunc(props) {
         className={classNames(projectcss.all, sty.freeBox__byg5R)}
       >
         <div className={classNames(projectcss.all, sty.freeBox__rpdMw)}>
-          <p.PlasmicLink
-            className={classNames(
-              projectcss.all,
-              projectcss.a,
-              projectcss.__wab_text,
-              sty.link___3MgyY
-            )}
-            component={Link}
-            href={"https://cruip.com/"}
-            platform={"nextjs"}
-          >
-            {"Designed by Cruip. "}
-          </p.PlasmicLink>
-
-          <p.PlasmicLink
-            className={classNames(
-              projectcss.all,
-              projectcss.a,
-              projectcss.__wab_text,
-              sty.link__howgu
-            )}
-            component={Link}
-            href={"https://www.plasmic.app/"}
-            platform={"nextjs"}
-          >
-            {"Built in Plasmic. "}
-          </p.PlasmicLink>
-
           <div
             className={classNames(
               projectcss.all,
@@ -485,7 +457,7 @@ function PlasmicFooter__RenderFunc(props) {
               sty.text__ayhVy
             )}
           >
-            {"All rights reserved."}
+            {"Built with ❤️ by the team at PPIS and PINTU."}
           </div>
         </div>
 

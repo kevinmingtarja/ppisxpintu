@@ -539,23 +539,6 @@
   align-items: stretch;
   justify-content: flex-start;
 }
-.link___3MgyY {
-  position: relative;
-  color: var(--token-kJyWQZ4-yF8X4u);
-  height: auto;
-  font-size: 14px;
-}
-.root .link___3MgyY:hover {
-  text-decoration-line: underline;
-}
-.link__howgu {
-  position: relative;
-  color: var(--token-kJyWQZ4-yF8X4u);
-  font-size: 14px;
-}
-.root .link__howgu:hover {
-  text-decoration-line: underline;
-}
 .text__ayhVy {
   position: relative;
   height: auto;
