@@ -24,7 +24,6 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import plasmic_library_plasmic_color_type_css from "../library_plasmic_color_type/plasmic_library_plasmic_color_type.module.css"; // plasmic-import: seaQhLVS4bbjiGvJJrRwyL/projectcss
 import projectcss from "./plasmic_simple_light_landing_page.module.css"; // plasmic-import: tKTnPCKDkyqVsBLoY29HS4/projectcss
 import sty from "./PlasmicHomeCta.module.css"; // plasmic-import: WLZ0rblPyexnv/css
-import SphereIcon from "./icons/PlasmicIcon__Sphere"; // plasmic-import: pk6UUmy6cpdBuH/icon
 
 export const PlasmicHomeCta__VariantProps = new Array();
 
@@ -115,7 +114,7 @@ function PlasmicHomeCta__RenderFunc(props) {
 
       {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
         <div className={classNames(projectcss.all, sty.freeBox__pw1Xw)}>
-          <SphereIcon
+          <svg
             data-plasmic-name={"svg"}
             data-plasmic-override={overrides.svg}
             className={classNames(projectcss.all, sty.svg)}

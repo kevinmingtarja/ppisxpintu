@@ -9,6 +9,7 @@
 // Plasmic Project: tKTnPCKDkyqVsBLoY29HS4
 // Component: jj6PS5r6usRXA
 import * as React from "react";
+import Link from "next/link";
 import * as p from "@plasmicapp/react-web";
 import {
   classNames,
@@ -22,7 +23,7 @@ import sty from "./PlasmicIconLink.module.css"; // plasmic-import: jj6PS5r6usRXA
 
 export const PlasmicIconLink__VariantProps = new Array();
 
-export const PlasmicIconLink__ArgProps = new Array("icon");
+export const PlasmicIconLink__ArgProps = new Array("icon", "link");
 
 function PlasmicIconLink__RenderFunc(props) {
   const { variants, args, overrides, forNode } = props;
@@ -42,10 +43,13 @@ function PlasmicIconLink__RenderFunc(props) {
         sty.root
       )}
     >
-      <div
-        data-plasmic-name={"freeBox"}
-        data-plasmic-override={overrides.freeBox}
-        className={classNames(projectcss.all, sty.freeBox)}
+      <p.PlasmicLink
+        data-plasmic-name={"link"}
+        data-plasmic-override={overrides.link}
+        className={classNames(projectcss.all, projectcss.a, sty.link)}
+        component={Link}
+        href={args.link}
+        platform={"nextjs"}
       >
         {p.renderPlasmicSlot({
           defaultContents: (
@@ -58,14 +62,14 @@ function PlasmicIconLink__RenderFunc(props) {
           value: args.icon,
           className: classNames(sty.slotTargetIcon)
         })}
-      </div>
+      </p.PlasmicLink>
     </div>
   );
 }
 
 const PlasmicDescendants = {
-  root: ["root", "freeBox"],
-  freeBox: ["freeBox"]
+  root: ["root", "link"],
+  link: ["link"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -97,7 +101,7 @@ export const PlasmicIconLink = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    freeBox: makeNodeComponent("freeBox"),
+    link: makeNodeComponent("link"),
     // Metadata about props expected for PlasmicIconLink
     internalVariantProps: PlasmicIconLink__VariantProps,
     internalArgProps: PlasmicIconLink__ArgProps

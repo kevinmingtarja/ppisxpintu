@@ -1,0 +1,76 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+}
+.header:global(.__wab_instance) {
+  position: relative;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .header:global(.__wab_instance) {
+    position: relative;
+  }
+}
+.faqSection:global(.__wab_instance) {
+  position: relative;
+}
+.freeBox {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+}
+.freeBox > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  min-width: 0;
+  margin-top: calc(0px - 24px);
+  height: calc(100% + 24px);
+}
+.freeBox > :global(.__wab_flex-container) > *,
+.freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox > :global(.__wab_flex-container) > picture > img,
+.freeBox
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 24px;
+}
+.faq__qIlZt:global(.__wab_instance):global(.__wab_instance) {
+  position: relative;
+}
+.text {
+  height: auto;
+}
+.faq___9Xjtc:global(.__wab_instance):global(.__wab_instance) {
+  position: relative;
+}
+.faq__pd2Nb:global(.__wab_instance):global(.__wab_instance) {
+  position: relative;
+}
+.faq__krpDg:global(.__wab_instance):global(.__wab_instance) {
+  position: relative;
+}
+.faq__k3GoQ:global(.__wab_instance):global(.__wab_instance) {
+  position: relative;
+}
+.footer:global(.__wab_instance) {
+  position: relative;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .footer:global(.__wab_instance) {
+    position: relative;
+  }
+}

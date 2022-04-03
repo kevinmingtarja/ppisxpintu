@@ -20,7 +20,6 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import plasmic_library_plasmic_color_type_css from "../library_plasmic_color_type/plasmic_library_plasmic_color_type.module.css"; // plasmic-import: seaQhLVS4bbjiGvJJrRwyL/projectcss
 import projectcss from "./plasmic_simple_light_landing_page.module.css"; // plasmic-import: tKTnPCKDkyqVsBLoY29HS4/projectcss
 import sty from "./PlasmicTestimonial.module.css"; // plasmic-import: drurerqJ3-jOgr/css
-import QuoteDashesIcon from "./icons/PlasmicIcon__QuoteDashes"; // plasmic-import: 3grBEaJHqB0cM8/icon
 
 export const PlasmicTestimonial__VariantProps = new Array();
 
@@ -60,17 +59,11 @@ function PlasmicTestimonial__RenderFunc(props) {
             displayMinHeight={"0"}
             displayMinWidth={"0"}
             displayWidth={"100%"}
-            src={{
-              src: "/plasmic/simple_light_landing_page/images/profilepic.png",
-              fullWidth: 192,
-              fullHeight: 192,
-              aspectRatio: undefined
-            }}
           />
         }
       />
 
-      <QuoteDashesIcon
+      <svg
         data-plasmic-name={"svg"}
         data-plasmic-override={overrides.svg}
         className={classNames(projectcss.all, sty.svg)}

@@ -147,19 +147,6 @@
           "componentType": "component"
         },
         {
-          "id": "mHQmBVsAWADp4N",
-          "name": "Pricing",
-          "type": "managed",
-          "projectId": "tKTnPCKDkyqVsBLoY29HS4",
-          "renderModuleFilePath": "plasmic/simple_light_landing_page/PlasmicPricing.jsx",
-          "importSpec": {
-            "modulePath": "../pages/pricing.jsx"
-          },
-          "cssFilePath": "plasmic/simple_light_landing_page/PlasmicPricing.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
-        {
           "id": "I998XhvLi8pnj-",
           "name": "BaseCard",
           "type": "managed",
@@ -277,93 +264,39 @@
           "cssFilePath": "plasmic/simple_light_landing_page/PlasmicScoreCard.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "mHQmBVsAWADp4N",
+          "name": "About",
+          "type": "managed",
+          "projectId": "tKTnPCKDkyqVsBLoY29HS4",
+          "renderModuleFilePath": "plasmic/ppis_x_pintu/PlasmicAbout.jsx",
+          "importSpec": {
+            "modulePath": "../pages/about.jsx"
+          },
+          "cssFilePath": "plasmic/ppis_x_pintu/PlasmicAbout.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "gyrzR9gsfX",
+          "name": "Faq2",
+          "type": "managed",
+          "projectId": "tKTnPCKDkyqVsBLoY29HS4",
+          "renderModuleFilePath": "plasmic/ppis_x_pintu/PlasmicFaq2.jsx",
+          "importSpec": {
+            "modulePath": "../pages/faq.jsx"
+          },
+          "cssFilePath": "plasmic/ppis_x_pintu/PlasmicFaq2.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [
         {
-          "id": "Mo8-oNtvr93R_X",
-          "name": "TwitterIconIcon",
-          "moduleFilePath": "plasmic/simple_light_landing_page/icons/PlasmicIcon__TwitterIcon.jsx"
-        },
-        {
           "id": "aYYl40-BIKRWKP",
           "name": "GithubIconIcon",
           "moduleFilePath": "plasmic/simple_light_landing_page/icons/PlasmicIcon__GithubIcon.jsx"
-        },
-        {
-          "id": "hsDNdQpe-px1RH",
-          "name": "FacebookIconIcon",
-          "moduleFilePath": "plasmic/simple_light_landing_page/icons/PlasmicIcon__FacebookIcon.jsx"
-        },
-        {
-          "id": "EmQfyxEqr64t9m",
-          "name": "FacebookLogoIcon",
-          "moduleFilePath": "plasmic/simple_light_landing_page/icons/PlasmicIcon__FacebookLogo.jsx"
-        },
-        {
-          "id": "Wv0VnUzBEWKfnt",
-          "name": "LogoIcon",
-          "moduleFilePath": "plasmic/simple_light_landing_page/icons/PlasmicIcon__Logo.jsx"
-        },
-        {
-          "id": "pk6UUmy6cpdBuH",
-          "name": "SphereIcon",
-          "moduleFilePath": "plasmic/simple_light_landing_page/icons/PlasmicIcon__Sphere.jsx"
-        },
-        {
-          "id": "3grBEaJHqB0cM8",
-          "name": "QuoteDashesIcon",
-          "moduleFilePath": "plasmic/simple_light_landing_page/icons/PlasmicIcon__QuoteDashes.jsx"
-        },
-        {
-          "id": "lfJt1wCHZiFF7o",
-          "name": "TinderLogoIcon",
-          "moduleFilePath": "plasmic/simple_light_landing_page/icons/PlasmicIcon__TinderLogo.jsx"
-        },
-        {
-          "id": "ymSw14DsLNa55d",
-          "name": "AirbnbLogoIcon",
-          "moduleFilePath": "plasmic/simple_light_landing_page/icons/PlasmicIcon__AirbnbLogo.jsx"
-        },
-        {
-          "id": "AskK07yZKOtgT5",
-          "name": "HubspotLogoIcon",
-          "moduleFilePath": "plasmic/simple_light_landing_page/icons/PlasmicIcon__HubspotLogo.jsx"
-        },
-        {
-          "id": "vHOFAU2EOYf9bE",
-          "name": "AmazonLogoIcon",
-          "moduleFilePath": "plasmic/simple_light_landing_page/icons/PlasmicIcon__AmazonLogo.jsx"
-        },
-        {
-          "id": "JTfRUZZiL9CILc",
-          "name": "SwapIcon",
-          "moduleFilePath": "plasmic/simple_light_landing_page/icons/PlasmicIcon__Swap.jsx"
-        },
-        {
-          "id": "hYYYjOALjvkxuH",
-          "name": "SlotIcon",
-          "moduleFilePath": "plasmic/simple_light_landing_page/icons/PlasmicIcon__Slot.jsx"
-        },
-        {
-          "id": "Va2yuFZZdQXRku",
-          "name": "CycleIcon",
-          "moduleFilePath": "plasmic/simple_light_landing_page/icons/PlasmicIcon__Cycle.jsx"
-        },
-        {
-          "id": "WmvLxphlopsd41",
-          "name": "HammerIcon",
-          "moduleFilePath": "plasmic/simple_light_landing_page/icons/PlasmicIcon__Hammer.jsx"
-        },
-        {
-          "id": "eW-eLIZdBOEjBO",
-          "name": "PencilIcon",
-          "moduleFilePath": "plasmic/simple_light_landing_page/icons/PlasmicIcon__Pencil.jsx"
-        },
-        {
-          "id": "CeDOkz4kPQ1lJ8",
-          "name": "LightningIcon",
-          "moduleFilePath": "plasmic/simple_light_landing_page/icons/PlasmicIcon__Lightning.jsx"
         },
         {
           "id": "6MLW-XtXOmG0d4",
@@ -389,28 +322,38 @@
           "id": "P-WVggbukb3kXX",
           "name": "SearchsvgIcon",
           "moduleFilePath": "plasmic/simple_light_landing_page/icons/PlasmicIcon__Searchsvg.jsx"
+        },
+        {
+          "id": "RKqBm-edS",
+          "name": "TrophySolidsvgIcon",
+          "moduleFilePath": "plasmic/ppis_x_pintu/icons/PlasmicIcon__TrophySolidsvg.jsx"
+        },
+        {
+          "id": "QW9K0OUTp",
+          "name": "InstagramsvgIcon",
+          "moduleFilePath": "plasmic/ppis_x_pintu/icons/PlasmicIcon__Instagramsvg.jsx"
         }
       ],
       "images": [
         {
-          "id": "x0zkcYzpviBCn2",
-          "name": "profilepic",
-          "filePath": "../public/plasmic/simple_light_landing_page/images/profilepic.png"
+          "id": "LKJzftBp5",
+          "name": "undraw_Fans_re_cri3.png",
+          "filePath": "../public/plasmic/ppis_x_pintu/images/undrawFansReCri3Png.png"
         },
         {
-          "id": "8Cn3_RK83eCOgx",
-          "name": "task",
-          "filePath": "../public/plasmic/simple_light_landing_page/images/task.png"
+          "id": "p6h5J85ZC",
+          "name": "undraw_game_day_ucx9.png",
+          "filePath": "../public/plasmic/ppis_x_pintu/images/undrawGameDayUcx9Png.png"
         },
         {
-          "id": "1OAoXLs9WX1OaP",
-          "name": "simple-project",
-          "filePath": "../public/plasmic/simple_light_landing_page/images/simpleProject.png"
+          "id": "ZRCjeyjS9",
+          "name": "undraw_Fans_re_cri3 (1).png",
+          "filePath": "../public/plasmic/ppis_x_pintu/images/undrawFansReCri31Png.png"
         },
         {
-          "id": "sitZaBJxL90J0S",
-          "name": "hero-image",
-          "filePath": "../public/plasmic/simple_light_landing_page/images/heroImage.png"
+          "id": "j0Wo-DQk-",
+          "name": "undraw_game_day_ucx9 (1).png",
+          "filePath": "../public/plasmic/ppis_x_pintu/images/undrawGameDayUcx91Png.png"
         }
       ],
       "indirect": false,

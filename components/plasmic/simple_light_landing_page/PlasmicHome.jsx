@@ -29,17 +29,6 @@ import plasmic_library_plasmic_color_type_css from "../library_plasmic_color_typ
 import projectcss from "./plasmic_simple_light_landing_page.module.css"; // plasmic-import: tKTnPCKDkyqVsBLoY29HS4/projectcss
 import sty from "./PlasmicHome.module.css"; // plasmic-import: yOP6IrvdsVj-G/css
 import RightArrowIcon from "./icons/PlasmicIcon__RightArrow"; // plasmic-import: 6MLW-XtXOmG0d4/icon
-import LightningIcon from "./icons/PlasmicIcon__Lightning"; // plasmic-import: CeDOkz4kPQ1lJ8/icon
-import HammerIcon from "./icons/PlasmicIcon__Hammer"; // plasmic-import: WmvLxphlopsd41/icon
-import PencilIcon from "./icons/PlasmicIcon__Pencil"; // plasmic-import: eW-eLIZdBOEjBO/icon
-import SwapIcon from "./icons/PlasmicIcon__Swap"; // plasmic-import: JTfRUZZiL9CILc/icon
-import SlotIcon from "./icons/PlasmicIcon__Slot"; // plasmic-import: hYYYjOALjvkxuH/icon
-import CycleIcon from "./icons/PlasmicIcon__Cycle"; // plasmic-import: Va2yuFZZdQXRku/icon
-import FacebookLogoIcon from "./icons/PlasmicIcon__FacebookLogo"; // plasmic-import: EmQfyxEqr64t9m/icon
-import TinderLogoIcon from "./icons/PlasmicIcon__TinderLogo"; // plasmic-import: lfJt1wCHZiFF7o/icon
-import AirbnbLogoIcon from "./icons/PlasmicIcon__AirbnbLogo"; // plasmic-import: ymSw14DsLNa55d/icon
-import HubspotLogoIcon from "./icons/PlasmicIcon__HubspotLogo"; // plasmic-import: AskK07yZKOtgT5/icon
-import AmazonLogoIcon from "./icons/PlasmicIcon__AmazonLogo"; // plasmic-import: vHOFAU2EOYf9bE/icon
 
 export const PlasmicHome__VariantProps = new Array();
 
@@ -106,17 +95,7 @@ function PlasmicHome__RenderFunc(props) {
                       sty.text__mVmKa
                     )}
                   >
-                    {"Make your website"}
-                  </div>
-
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__lrC8X
-                    )}
-                  >
-                    {"wonderful"}
+                    {"PPIS x PINTU Cup"}
                   </div>
                 </div>
 
@@ -128,7 +107,7 @@ function PlasmicHome__RenderFunc(props) {
                   )}
                 >
                   {
-                    "Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever."
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit maximus ex, a sollicitudin justo ullamcorper fringilla. Quisque blandit sollicitudin velit in ultricies."
                   }
                 </div>
               </p.Stack>
@@ -140,7 +119,7 @@ function PlasmicHome__RenderFunc(props) {
               >
                 <Button
                   className={classNames("__wab_instance", sty.button__fyh75)}
-                  color={"blue"}
+                  color={"red"}
                   endIcon={
                     <RightArrowIcon
                       className={classNames(projectcss.all, sty.svg__z1NCm)}
@@ -149,7 +128,15 @@ function PlasmicHome__RenderFunc(props) {
                   }
                   showEndIcon={true}
                 >
-                  {"Start free trial"}
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text___1SoV
+                    )}
+                  >
+                    {"Sign Up"}
+                  </div>
                 </Button>
 
                 <Button
@@ -165,14 +152,14 @@ function PlasmicHome__RenderFunc(props) {
                   className={classNames(sty.img___8Eyce)}
                   displayHeight={"100%"}
                   displayMaxHeight={"none"}
-                  displayMaxWidth={"none"}
+                  displayMaxWidth={"638px"}
                   displayMinHeight={"0"}
                   displayMinWidth={"0"}
                   displayWidth={"100%"}
                   src={{
-                    src: "/plasmic/simple_light_landing_page/images/heroImage.png",
-                    fullWidth: 1536,
-                    fullHeight: 864,
+                    src: "/plasmic/ppis_x_pintu/images/undrawGameDayUcx91Png.png",
+                    fullWidth: 1236,
+                    fullHeight: 953,
                     aspectRatio: undefined
                   }}
                 />
@@ -189,7 +176,17 @@ function PlasmicHome__RenderFunc(props) {
             subtitle={
               "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat."
             }
-            title={"Explore the solutions"}
+            title={
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text___13TEv
+                )}
+              >
+                {"Three Sports"}
+              </div>
+            }
           >
             <p.Stack
               as={"div"}
@@ -204,44 +201,22 @@ function PlasmicHome__RenderFunc(props) {
                   hasGap={true}
                   className={classNames(projectcss.all, sty.freeBox__ru5Vn)}
                 >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__kDiNi
-                    )}
-                  >
-                    {"Powerful suite of tools"}
-                  </div>
-
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__pcYsP
-                    )}
-                  >
-                    {
-                      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa."
-                    }
-                  </div>
-
                   <FeatureCard
                     className={classNames(
                       "__wab_instance",
                       sty.featureCard___3Yoqg
                     )}
                     description={
-                      "Taking collaboration to the next level with security and administrative features built for teams"
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit maximus ex, a sollicitudin justo ullamcorper fringilla."
                     }
                     iconBack={
-                      <LightningIcon
+                      <svg
                         className={classNames(projectcss.all, sty.svg___85JV)}
                         role={"img"}
                       />
                     }
                     long={true}
-                    title={"Building the Simple ecosystem"}
+                    title={"Futsal ⚽️"}
                   />
 
                   <FeatureCard
@@ -250,16 +225,16 @@ function PlasmicHome__RenderFunc(props) {
                       sty.featureCard___7GLn
                     )}
                     description={
-                      "Taking collaboration to the next level with security and administrative features built for teams"
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit maximus ex, a sollicitudin justo ullamcorper fringilla."
                     }
                     iconBack={
-                      <HammerIcon
+                      <svg
                         className={classNames(projectcss.all, sty.svg__i9JTy)}
                         role={"img"}
                       />
                     }
                     long={true}
-                    title={"Building the Simple Ecosystem"}
+                    title={"Basketball 🏀"}
                   />
 
                   <FeatureCard
@@ -268,16 +243,16 @@ function PlasmicHome__RenderFunc(props) {
                       sty.featureCard__nBxYr
                     )}
                     description={
-                      "Taking collaboration to the next level with security and administrative features built for teams"
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit maximus ex, a sollicitudin justo ullamcorper fringilla."
                     }
                     iconBack={
-                      <PencilIcon
+                      <svg
                         className={classNames(projectcss.all, sty.svg___8Zktq)}
                         role={"img"}
                       />
                     }
                     long={true}
-                    title={"Building the Simple Ecosystem"}
+                    title={"Badminton 🏸"}
                   />
                 </p.Stack>
               </div>
@@ -293,9 +268,9 @@ function PlasmicHome__RenderFunc(props) {
                   displayMinWidth={"0"}
                   displayWidth={"100%"}
                   src={{
-                    src: "/plasmic/simple_light_landing_page/images/simpleProject.png",
-                    fullWidth: 1000,
-                    fullHeight: 924,
+                    src: "/plasmic/ppis_x_pintu/images/undrawFansReCri31Png.png",
+                    fullWidth: 991,
+                    fullHeight: 843,
                     aspectRatio: undefined
                   }}
                 />
@@ -303,176 +278,197 @@ function PlasmicHome__RenderFunc(props) {
             </p.Stack>
           </Section>
 
-          <Section
-            data-plasmic-name={"howItWorks"}
-            data-plasmic-override={overrides.howItWorks}
-            className={classNames("__wab_instance", sty.howItWorks)}
-            color={"halfDark"}
-            hasSubtitle={true}
-            hasTitle={true}
-            subtitle={
-              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat."
-            }
-            title={"How Simple works"}
-          >
-            <p.Stack
-              as={"div"}
-              hasGap={true}
-              className={classNames(projectcss.all, sty.freeBox__xwUxd)}
-            >
-              <FeatureCard
-                className={classNames("__wab_instance", sty.featureCard__tarw)}
-                description={
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                }
-                iconFront={
-                  <SwapIcon
-                    className={classNames(projectcss.all, sty.svg___2AfYr)}
-                    role={"img"}
-                  />
-                }
-                title={"Initial Contact"}
-              />
-
-              <FeatureCard
-                className={classNames("__wab_instance", sty.featureCard__el14W)}
-                description={
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                }
-                iconFront={
-                  <SlotIcon
-                    className={classNames(projectcss.all, sty.svg__jDfIj)}
-                    role={"img"}
-                  />
-                }
-                title={"Discovery Session"}
-              />
-
-              <FeatureCard
-                className={classNames("__wab_instance", sty.featureCard__wpZie)}
-                description={
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                }
-                iconFront={
-                  <CycleIcon
-                    className={classNames(projectcss.all, sty.svg__j84)}
-                    role={"img"}
-                  />
-                }
-                title={"Contracting"}
-              />
-
-              <FeatureCard
-                className={classNames("__wab_instance", sty.featureCard__yfC6L)}
-                description={
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                }
-                iconFront={
-                  <HammerIcon
-                    className={classNames(projectcss.all, sty.svg__dpDuX)}
-                    role={"img"}
-                  />
-                }
-                title={"Fast Prototyping"}
-              />
-
-              <FeatureCard
-                className={classNames(
-                  "__wab_instance",
-                  sty.featureCard___8Wd8H
-                )}
-                description={
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                }
-                iconFront={
-                  <PencilIcon
-                    className={classNames(projectcss.all, sty.svg__bv9Db)}
-                    role={"img"}
-                  />
-                }
-                title={"Design Phase"}
-              />
-
-              <FeatureCard
-                className={classNames("__wab_instance", sty.featureCard___4Ke5)}
-                description={
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                }
-                iconFront={
-                  <LightningIcon
-                    className={classNames(projectcss.all, sty.svg__gGS)}
-                    role={"img"}
-                  />
-                }
-                title={"Develop & Launch"}
-              />
-            </p.Stack>
-
-            {true ? (
-              <div className={classNames(projectcss.all, sty.freeBox__c3TgN)} />
-            ) : null}
-          </Section>
-
-          <Section
-            data-plasmic-name={"validation"}
-            data-plasmic-override={overrides.validation}
-            className={classNames("__wab_instance", sty.validation)}
-            hasSubtitle={true}
-            hasTitle={true}
-            subtitle={
-              "Arcu cursus vitae congue mauris rhoncus viverra nibh cras pulvinar mattis blandit libero cursus mattis."
-            }
-            title={"Trusted by over 20,000 companies all over the world"}
-          >
-            <p.Stack
-              as={"div"}
-              hasGap={true}
-              className={classNames(projectcss.all, sty.freeBox__bzlr0)}
+          {true ? (
+            <Section
+              data-plasmic-name={"howItWorks"}
+              data-plasmic-override={overrides.howItWorks}
+              className={classNames("__wab_instance", sty.howItWorks)}
+              color={"halfDark"}
+              hasSubtitle={true}
+              hasTitle={true}
+              subtitle={
+                "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat."
+              }
+              title={"How Simple works"}
             >
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(projectcss.all, sty.freeBox__kHtxw)}
+                className={classNames(projectcss.all, sty.freeBox__xwUxd)}
               >
-                <FacebookLogoIcon
-                  className={classNames(projectcss.all, sty.svg___5Ovh3)}
-                  role={"img"}
+                <FeatureCard
+                  className={classNames(
+                    "__wab_instance",
+                    sty.featureCard__tarw
+                  )}
+                  description={
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                  }
+                  iconFront={
+                    <svg
+                      className={classNames(projectcss.all, sty.svg___2AfYr)}
+                      role={"img"}
+                    />
+                  }
+                  title={"Initial Contact"}
                 />
 
-                <TinderLogoIcon
-                  className={classNames(projectcss.all, sty.svg__a67Ml)}
-                  role={"img"}
+                <FeatureCard
+                  className={classNames(
+                    "__wab_instance",
+                    sty.featureCard__el14W
+                  )}
+                  description={
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                  }
+                  iconFront={
+                    <svg
+                      className={classNames(projectcss.all, sty.svg__jDfIj)}
+                      role={"img"}
+                    />
+                  }
+                  title={"Discovery Session"}
                 />
 
-                <AirbnbLogoIcon
-                  className={classNames(projectcss.all, sty.svg___9UZ7S)}
-                  role={"img"}
+                <FeatureCard
+                  className={classNames(
+                    "__wab_instance",
+                    sty.featureCard__wpZie
+                  )}
+                  description={
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                  }
+                  iconFront={
+                    <svg
+                      className={classNames(projectcss.all, sty.svg__j84)}
+                      role={"img"}
+                    />
+                  }
+                  title={"Contracting"}
                 />
 
-                <HubspotLogoIcon
-                  className={classNames(projectcss.all, sty.svg__jtPbe)}
-                  role={"img"}
+                <FeatureCard
+                  className={classNames(
+                    "__wab_instance",
+                    sty.featureCard__yfC6L
+                  )}
+                  description={
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                  }
+                  iconFront={
+                    <svg
+                      className={classNames(projectcss.all, sty.svg__dpDuX)}
+                      role={"img"}
+                    />
+                  }
+                  title={"Fast Prototyping"}
                 />
 
-                <AmazonLogoIcon
-                  className={classNames(projectcss.all, sty.svg__vxTjv)}
-                  role={"img"}
+                <FeatureCard
+                  className={classNames(
+                    "__wab_instance",
+                    sty.featureCard___8Wd8H
+                  )}
+                  description={
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                  }
+                  iconFront={
+                    <svg
+                      className={classNames(projectcss.all, sty.svg__bv9Db)}
+                      role={"img"}
+                    />
+                  }
+                  title={"Design Phase"}
+                />
+
+                <FeatureCard
+                  className={classNames(
+                    "__wab_instance",
+                    sty.featureCard___4Ke5
+                  )}
+                  description={
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                  }
+                  iconFront={
+                    <svg
+                      className={classNames(projectcss.all, sty.svg__gGS)}
+                      role={"img"}
+                    />
+                  }
+                  title={"Develop & Launch"}
                 />
               </p.Stack>
 
-              <Testimonial
-                data-plasmic-name={"testimonial"}
-                data-plasmic-override={overrides.testimonial}
-                className={classNames("__wab_instance", sty.testimonial)}
-              />
-            </p.Stack>
-          </Section>
+              {true ? (
+                <div
+                  className={classNames(projectcss.all, sty.freeBox__c3TgN)}
+                />
+              ) : null}
+            </Section>
+          ) : null}
+          {true ? (
+            <Section
+              data-plasmic-name={"validation"}
+              data-plasmic-override={overrides.validation}
+              className={classNames("__wab_instance", sty.validation)}
+              hasSubtitle={true}
+              hasTitle={true}
+              subtitle={
+                "Arcu cursus vitae congue mauris rhoncus viverra nibh cras pulvinar mattis blandit libero cursus mattis."
+              }
+              title={"Trusted by over 20,000 companies all over the world"}
+            >
+              <p.Stack
+                as={"div"}
+                hasGap={true}
+                className={classNames(projectcss.all, sty.freeBox__bzlr0)}
+              >
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__kHtxw)}
+                >
+                  <svg
+                    className={classNames(projectcss.all, sty.svg___5Ovh3)}
+                    role={"img"}
+                  />
 
-          <HomeCta
-            data-plasmic-name={"homeCta"}
-            data-plasmic-override={overrides.homeCta}
-            className={classNames("__wab_instance", sty.homeCta)}
-          />
+                  <svg
+                    className={classNames(projectcss.all, sty.svg__a67Ml)}
+                    role={"img"}
+                  />
+
+                  <svg
+                    className={classNames(projectcss.all, sty.svg___9UZ7S)}
+                    role={"img"}
+                  />
+
+                  <svg
+                    className={classNames(projectcss.all, sty.svg__jtPbe)}
+                    role={"img"}
+                  />
+
+                  <svg
+                    className={classNames(projectcss.all, sty.svg__vxTjv)}
+                    role={"img"}
+                  />
+                </p.Stack>
+
+                <Testimonial
+                  data-plasmic-name={"testimonial"}
+                  data-plasmic-override={overrides.testimonial}
+                  className={classNames("__wab_instance", sty.testimonial)}
+                />
+              </p.Stack>
+            </Section>
+          ) : null}
+          {true ? (
+            <HomeCta
+              data-plasmic-name={"homeCta"}
+              data-plasmic-override={overrides.homeCta}
+              className={classNames("__wab_instance", sty.homeCta)}
+            />
+          ) : null}
 
           <Footer
             data-plasmic-name={"footer"}

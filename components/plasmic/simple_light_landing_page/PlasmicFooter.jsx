@@ -25,11 +25,9 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import plasmic_library_plasmic_color_type_css from "../library_plasmic_color_type/plasmic_library_plasmic_color_type.module.css"; // plasmic-import: seaQhLVS4bbjiGvJJrRwyL/projectcss
 import projectcss from "./plasmic_simple_light_landing_page.module.css"; // plasmic-import: tKTnPCKDkyqVsBLoY29HS4/projectcss
 import sty from "./PlasmicFooter.module.css"; // plasmic-import: ZPn3bgNH6g0zH/css
-import LogoIcon from "./icons/PlasmicIcon__Logo"; // plasmic-import: Wv0VnUzBEWKfnt/icon
 import IconIcon from "./icons/PlasmicIcon__Icon"; // plasmic-import: TsBdFIJOOJxUHu/icon
-import TwitterIconIcon from "./icons/PlasmicIcon__TwitterIcon"; // plasmic-import: Mo8-oNtvr93R_X/icon
+import InstagramsvgIcon from "../ppis_x_pintu/icons/PlasmicIcon__Instagramsvg"; // plasmic-import: QW9K0OUTp/icon
 import GithubIconIcon from "./icons/PlasmicIcon__GithubIcon"; // plasmic-import: aYYl40-BIKRWKP/icon
-import FacebookIconIcon from "./icons/PlasmicIcon__FacebookIcon"; // plasmic-import: hsDNdQpe-px1RH/icon
 
 export const PlasmicFooter__VariantProps = new Array();
 
@@ -59,388 +57,391 @@ function PlasmicFooter__RenderFunc(props) {
         sty.root
       )}
     >
-      <div className={classNames(projectcss.all, sty.freeBox__yhvFk)} />
-
-      <p.Stack
-        as={"div"}
-        hasGap={true}
-        className={classNames(projectcss.all, sty.freeBox__xteaC)}
-      >
+      {true ? (
+        <div className={classNames(projectcss.all, sty.freeBox__yhvFk)} />
+      ) : null}
+      {true ? (
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(projectcss.all, sty.freeBox__aOoCq)}
-        >
-          <IconLink
-            className={classNames("__wab_instance", sty.iconLink__rye33)}
-            icon={
-              <LogoIcon
-                className={classNames(projectcss.all, sty.svg__tRhnm)}
-                role={"img"}
-              />
-            }
-          />
-
-          <div className={classNames(projectcss.all, sty.freeBox___4SNMk)}>
-            <p.PlasmicLink
-              className={classNames(
-                projectcss.all,
-                projectcss.a,
-                projectcss.__wab_text,
-                sty.link__qfavy
-              )}
-              component={Link}
-              href={"#"}
-              platform={"nextjs"}
-            >
-              {"Terms"}
-            </p.PlasmicLink>
-
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text__umwVk
-              )}
-            >
-              {" · "}
-            </div>
-
-            <p.PlasmicLink
-              className={classNames(
-                projectcss.all,
-                projectcss.a,
-                projectcss.__wab_text,
-                sty.link__tVuQy
-              )}
-              component={Link}
-              href={"#"}
-              platform={"nextjs"}
-            >
-              {"Privacy"}
-            </p.PlasmicLink>
-          </div>
-        </p.Stack>
-
-        <p.Stack
-          as={"div"}
-          hasGap={true}
-          className={classNames(projectcss.all, sty.freeBox__quiHg)}
+          className={classNames(projectcss.all, sty.freeBox__xteaC)}
         >
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(projectcss.all, sty.freeBox__dF3Lv)}
+            className={classNames(projectcss.all, sty.freeBox__aOoCq)}
           >
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text__afOp1
-              )}
-            >
-              {"Products"}
+            <IconLink
+              className={classNames("__wab_instance", sty.iconLink__rye33)}
+              icon={
+                <svg
+                  className={classNames(projectcss.all, sty.svg__tRhnm)}
+                  role={"img"}
+                />
+              }
+            />
+
+            <div className={classNames(projectcss.all, sty.freeBox___4SNMk)}>
+              <p.PlasmicLink
+                className={classNames(
+                  projectcss.all,
+                  projectcss.a,
+                  projectcss.__wab_text,
+                  sty.link__qfavy
+                )}
+                component={Link}
+                href={"#"}
+                platform={"nextjs"}
+              >
+                {"Terms"}
+              </p.PlasmicLink>
+
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__umwVk
+                )}
+              >
+                {" · "}
+              </div>
+
+              <p.PlasmicLink
+                className={classNames(
+                  projectcss.all,
+                  projectcss.a,
+                  projectcss.__wab_text,
+                  sty.link__tVuQy
+                )}
+                component={Link}
+                href={"#"}
+                platform={"nextjs"}
+              >
+                {"Privacy"}
+              </p.PlasmicLink>
             </div>
-
-            <p.PlasmicLink
-              className={classNames(
-                projectcss.all,
-                projectcss.a,
-                projectcss.__wab_text,
-                sty.link__up8K0
-              )}
-              component={Link}
-              href={"#"}
-              platform={"nextjs"}
-            >
-              {"Web Studio"}
-            </p.PlasmicLink>
-
-            <p.PlasmicLink
-              className={classNames(
-                projectcss.all,
-                projectcss.a,
-                projectcss.__wab_text,
-                sty.link__nbthu
-              )}
-              component={Link}
-              href={"#"}
-              platform={"nextjs"}
-            >
-              {"DynamicBox Flex"}
-            </p.PlasmicLink>
-
-            <p.PlasmicLink
-              className={classNames(
-                projectcss.all,
-                projectcss.a,
-                projectcss.__wab_text,
-                sty.link___4N4ME
-              )}
-              component={Link}
-              href={"#"}
-              platform={"nextjs"}
-            >
-              {"Programming Forms"}
-            </p.PlasmicLink>
-
-            <p.PlasmicLink
-              className={classNames(
-                projectcss.all,
-                projectcss.a,
-                projectcss.__wab_text,
-                sty.link__dcdP8
-              )}
-              component={Link}
-              href={"#"}
-              platform={"nextjs"}
-            >
-              {"Integrations"}
-            </p.PlasmicLink>
-
-            <p.PlasmicLink
-              className={classNames(
-                projectcss.all,
-                projectcss.a,
-                projectcss.__wab_text,
-                sty.link__js8AP
-              )}
-              component={Link}
-              href={"#"}
-              platform={"nextjs"}
-            >
-              {"Command-line"}
-            </p.PlasmicLink>
           </p.Stack>
 
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(projectcss.all, sty.freeBox__rjQxo)}
+            className={classNames(projectcss.all, sty.freeBox__quiHg)}
           >
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text__jnpL2
-              )}
+            <p.Stack
+              as={"div"}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.freeBox__dF3Lv)}
             >
-              {"Resources"}
-            </div>
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__afOp1
+                )}
+              >
+                {"Products"}
+              </div>
 
-            <p.PlasmicLink
-              className={classNames(
-                projectcss.all,
-                projectcss.a,
-                projectcss.__wab_text,
-                sty.link__vFn46
-              )}
-              component={Link}
-              href={"#"}
-              platform={"nextjs"}
+              <p.PlasmicLink
+                className={classNames(
+                  projectcss.all,
+                  projectcss.a,
+                  projectcss.__wab_text,
+                  sty.link__up8K0
+                )}
+                component={Link}
+                href={"#"}
+                platform={"nextjs"}
+              >
+                {"Web Studio"}
+              </p.PlasmicLink>
+
+              <p.PlasmicLink
+                className={classNames(
+                  projectcss.all,
+                  projectcss.a,
+                  projectcss.__wab_text,
+                  sty.link__nbthu
+                )}
+                component={Link}
+                href={"#"}
+                platform={"nextjs"}
+              >
+                {"DynamicBox Flex"}
+              </p.PlasmicLink>
+
+              <p.PlasmicLink
+                className={classNames(
+                  projectcss.all,
+                  projectcss.a,
+                  projectcss.__wab_text,
+                  sty.link___4N4ME
+                )}
+                component={Link}
+                href={"#"}
+                platform={"nextjs"}
+              >
+                {"Programming Forms"}
+              </p.PlasmicLink>
+
+              <p.PlasmicLink
+                className={classNames(
+                  projectcss.all,
+                  projectcss.a,
+                  projectcss.__wab_text,
+                  sty.link__dcdP8
+                )}
+                component={Link}
+                href={"#"}
+                platform={"nextjs"}
+              >
+                {"Integrations"}
+              </p.PlasmicLink>
+
+              <p.PlasmicLink
+                className={classNames(
+                  projectcss.all,
+                  projectcss.a,
+                  projectcss.__wab_text,
+                  sty.link__js8AP
+                )}
+                component={Link}
+                href={"#"}
+                platform={"nextjs"}
+              >
+                {"Command-line"}
+              </p.PlasmicLink>
+            </p.Stack>
+
+            <p.Stack
+              as={"div"}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.freeBox__rjQxo)}
             >
-              {"Documentation"}
-            </p.PlasmicLink>
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__jnpL2
+                )}
+              >
+                {"Resources"}
+              </div>
 
-            <p.PlasmicLink
-              className={classNames(
-                projectcss.all,
-                projectcss.a,
-                projectcss.__wab_text,
-                sty.link__w2EMh
-              )}
-              component={Link}
-              href={"#"}
-              platform={"nextjs"}
+              <p.PlasmicLink
+                className={classNames(
+                  projectcss.all,
+                  projectcss.a,
+                  projectcss.__wab_text,
+                  sty.link__vFn46
+                )}
+                component={Link}
+                href={"#"}
+                platform={"nextjs"}
+              >
+                {"Documentation"}
+              </p.PlasmicLink>
+
+              <p.PlasmicLink
+                className={classNames(
+                  projectcss.all,
+                  projectcss.a,
+                  projectcss.__wab_text,
+                  sty.link__w2EMh
+                )}
+                component={Link}
+                href={"#"}
+                platform={"nextjs"}
+              >
+                {"Tutorials & Guides"}
+              </p.PlasmicLink>
+
+              <p.PlasmicLink
+                className={classNames(
+                  projectcss.all,
+                  projectcss.a,
+                  projectcss.__wab_text,
+                  sty.link__rzx6T
+                )}
+                component={Link}
+                href={"#"}
+                platform={"nextjs"}
+              >
+                {"Blog"}
+              </p.PlasmicLink>
+
+              <p.PlasmicLink
+                className={classNames(
+                  projectcss.all,
+                  projectcss.a,
+                  projectcss.__wab_text,
+                  sty.link___3JJZj
+                )}
+                component={Link}
+                href={"#"}
+                platform={"nextjs"}
+              >
+                {"Support Center"}
+              </p.PlasmicLink>
+
+              <p.PlasmicLink
+                className={classNames(
+                  projectcss.all,
+                  projectcss.a,
+                  projectcss.__wab_text,
+                  sty.link__f2Szn
+                )}
+                component={Link}
+                href={"#"}
+                platform={"nextjs"}
+              >
+                {"Partners"}
+              </p.PlasmicLink>
+            </p.Stack>
+
+            <p.Stack
+              as={"div"}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.freeBox__oMtpa)}
             >
-              {"Tutorials & Guides"}
-            </p.PlasmicLink>
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__kRcSc
+                )}
+              >
+                {"Company"}
+              </div>
 
-            <p.PlasmicLink
-              className={classNames(
-                projectcss.all,
-                projectcss.a,
-                projectcss.__wab_text,
-                sty.link__rzx6T
-              )}
-              component={Link}
-              href={"#"}
-              platform={"nextjs"}
+              <p.PlasmicLink
+                className={classNames(
+                  projectcss.all,
+                  projectcss.a,
+                  projectcss.__wab_text,
+                  sty.link__hauDx
+                )}
+                component={Link}
+                href={"#"}
+                platform={"nextjs"}
+              >
+                {"Home"}
+              </p.PlasmicLink>
+
+              <p.PlasmicLink
+                className={classNames(
+                  projectcss.all,
+                  projectcss.a,
+                  projectcss.__wab_text,
+                  sty.link__bd6Gi
+                )}
+                component={Link}
+                href={"#"}
+                platform={"nextjs"}
+              >
+                {"About us"}
+              </p.PlasmicLink>
+
+              <p.PlasmicLink
+                className={classNames(
+                  projectcss.all,
+                  projectcss.a,
+                  projectcss.__wab_text,
+                  sty.link__muRi
+                )}
+                component={Link}
+                href={"#"}
+                platform={"nextjs"}
+              >
+                {"Company values"}
+              </p.PlasmicLink>
+
+              <p.PlasmicLink
+                className={classNames(
+                  projectcss.all,
+                  projectcss.a,
+                  projectcss.__wab_text,
+                  sty.link__lu0I
+                )}
+                component={Link}
+                href={"#"}
+                platform={"nextjs"}
+              >
+                {"Pricing"}
+              </p.PlasmicLink>
+
+              <p.PlasmicLink
+                className={classNames(
+                  projectcss.all,
+                  projectcss.a,
+                  projectcss.__wab_text,
+                  sty.link__w7Tl8
+                )}
+                component={Link}
+                href={"#"}
+                platform={"nextjs"}
+              >
+                {"Privacy policy"}
+              </p.PlasmicLink>
+            </p.Stack>
+
+            <p.Stack
+              as={"div"}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.freeBox__yLlh7)}
             >
-              {"Blog"}
-            </p.PlasmicLink>
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__mBfAo
+                )}
+              >
+                {"Subscribe"}
+              </div>
 
-            <p.PlasmicLink
-              className={classNames(
-                projectcss.all,
-                projectcss.a,
-                projectcss.__wab_text,
-                sty.link___3JJZj
-              )}
-              component={Link}
-              href={"#"}
-              platform={"nextjs"}
-            >
-              {"Support Center"}
-            </p.PlasmicLink>
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__tZ6B0
+                )}
+              >
+                {"Get the latest news and articles to your inbox every month."}
+              </div>
 
-            <p.PlasmicLink
-              className={classNames(
-                projectcss.all,
-                projectcss.a,
-                projectcss.__wab_text,
-                sty.link__f2Szn
-              )}
-              component={Link}
-              href={"#"}
-              platform={"nextjs"}
-            >
-              {"Partners"}
-            </p.PlasmicLink>
-          </p.Stack>
-
-          <p.Stack
-            as={"div"}
-            hasGap={true}
-            className={classNames(projectcss.all, sty.freeBox__oMtpa)}
-          >
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text__kRcSc
-              )}
-            >
-              {"Company"}
-            </div>
-
-            <p.PlasmicLink
-              className={classNames(
-                projectcss.all,
-                projectcss.a,
-                projectcss.__wab_text,
-                sty.link__hauDx
-              )}
-              component={Link}
-              href={"#"}
-              platform={"nextjs"}
-            >
-              {"Home"}
-            </p.PlasmicLink>
-
-            <p.PlasmicLink
-              className={classNames(
-                projectcss.all,
-                projectcss.a,
-                projectcss.__wab_text,
-                sty.link__bd6Gi
-              )}
-              component={Link}
-              href={"#"}
-              platform={"nextjs"}
-            >
-              {"About us"}
-            </p.PlasmicLink>
-
-            <p.PlasmicLink
-              className={classNames(
-                projectcss.all,
-                projectcss.a,
-                projectcss.__wab_text,
-                sty.link__muRi
-              )}
-              component={Link}
-              href={"#"}
-              platform={"nextjs"}
-            >
-              {"Company values"}
-            </p.PlasmicLink>
-
-            <p.PlasmicLink
-              className={classNames(
-                projectcss.all,
-                projectcss.a,
-                projectcss.__wab_text,
-                sty.link__lu0I
-              )}
-              component={Link}
-              href={"#"}
-              platform={"nextjs"}
-            >
-              {"Pricing"}
-            </p.PlasmicLink>
-
-            <p.PlasmicLink
-              className={classNames(
-                projectcss.all,
-                projectcss.a,
-                projectcss.__wab_text,
-                sty.link__w7Tl8
-              )}
-              component={Link}
-              href={"#"}
-              platform={"nextjs"}
-            >
-              {"Privacy policy"}
-            </p.PlasmicLink>
-          </p.Stack>
-
-          <p.Stack
-            as={"div"}
-            hasGap={true}
-            className={classNames(projectcss.all, sty.freeBox__yLlh7)}
-          >
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text__mBfAo
-              )}
-            >
-              {"Subscribe"}
-            </div>
-
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text__tZ6B0
-              )}
-            >
-              {"Get the latest news and articles to your inbox every month."}
-            </div>
-
-            <TextInput
-              data-plasmic-name={"textInput"}
-              data-plasmic-override={overrides.textInput}
-              className={classNames("__wab_instance", sty.textInput)}
-              endIcon={
-                <Button
-                  data-plasmic-name={"button"}
-                  data-plasmic-override={overrides.button}
-                  className={classNames("__wab_instance", sty.button)}
-                  color={"clear"}
-                  size={"compact"}
-                  startIcon={
+              <TextInput
+                data-plasmic-name={"textInput"}
+                data-plasmic-override={overrides.textInput}
+                className={classNames("__wab_instance", sty.textInput)}
+                endIcon={
+                  <Button
+                    data-plasmic-name={"button"}
+                    data-plasmic-override={overrides.button}
+                    className={classNames("__wab_instance", sty.button)}
+                    color={"clear"}
+                    size={"compact"}
+                    startIcon={
+                      <IconIcon
+                        className={classNames(projectcss.all, sty.svg__ddaFb)}
+                        role={"img"}
+                      />
+                    }
+                  >
                     <IconIcon
-                      className={classNames(projectcss.all, sty.svg__ddaFb)}
+                      className={classNames(projectcss.all, sty.svg__vejzx)}
                       role={"img"}
                     />
-                  }
-                >
-                  <IconIcon
-                    className={classNames(projectcss.all, sty.svg__vejzx)}
-                    role={"img"}
-                  />
-                </Button>
-              }
-              fontSize={"small"}
-              placeholder={"Your email"}
-              showEndIcon={true}
-            />
+                  </Button>
+                }
+                fontSize={"small"}
+                placeholder={"Your email"}
+                showEndIcon={true}
+              />
+            </p.Stack>
           </p.Stack>
         </p.Stack>
-      </p.Stack>
+      ) : null}
 
       <div className={classNames(projectcss.all, sty.freeBox__plLa)} />
 
@@ -469,7 +470,7 @@ function PlasmicFooter__RenderFunc(props) {
           <IconLink
             className={classNames("__wab_instance", sty.iconLink__w9Svi)}
             icon={
-              <TwitterIconIcon
+              <InstagramsvgIcon
                 className={classNames(projectcss.all, sty.svg__kvw3N)}
                 role={"img"}
               />
@@ -484,16 +485,7 @@ function PlasmicFooter__RenderFunc(props) {
                 role={"img"}
               />
             }
-          />
-
-          <IconLink
-            className={classNames("__wab_instance", sty.iconLink__sdHwe)}
-            icon={
-              <FacebookIconIcon
-                className={classNames(projectcss.all, sty.svg__xk8Fr)}
-                role={"img"}
-              />
-            }
+            link={"https://github.com/kevinmingtarja/ppisxpintu"}
           />
         </p.Stack>
       </p.Stack>

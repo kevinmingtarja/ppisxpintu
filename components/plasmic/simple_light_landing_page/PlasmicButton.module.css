@@ -6,7 +6,7 @@
   cursor: pointer;
   transition-property: background;
   transition-duration: 0.1s;
-  border-radius: 6px;
+  border-radius: 8px;
   padding: 10px 20px;
   border-width: 0px;
 }
@@ -49,7 +49,8 @@
   background: var(--token-p-fCTrfjtL4);
 }
 .rootcolor_red {
-  background: #e54d2e;
+  background: #ff385c;
+  box-shadow: 0px 4px 16px 0px #00000033;
 }
 .rootcolor_outlineBlue {
   background: #ffffff00;
@@ -81,7 +82,7 @@
   background: #369eff;
 }
 .rootcolor_red:hover {
-  background: #ec5e41;
+  background: #ff5574;
 }
 .rootcolor_outlineBlue:hover {
   background: #e1f0ff;
@@ -107,7 +108,7 @@
   background: #52a9ff;
 }
 .rootcolor_red:active {
-  background: #f16a50;
+  background: #f95a77;
 }
 .rootcolor_outlineBlue:active {
   background: #cee7fe;

@@ -24,7 +24,7 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import plasmic_library_plasmic_color_type_css from "../library_plasmic_color_type/plasmic_library_plasmic_color_type.module.css"; // plasmic-import: seaQhLVS4bbjiGvJJrRwyL/projectcss
 import projectcss from "./plasmic_simple_light_landing_page.module.css"; // plasmic-import: tKTnPCKDkyqVsBLoY29HS4/projectcss
 import sty from "./PlasmicHeader.module.css"; // plasmic-import: ey_uE02a4G6XM/css
-import LogoIcon from "./icons/PlasmicIcon__Logo"; // plasmic-import: Wv0VnUzBEWKfnt/icon
+import TrophySolidsvgIcon from "../ppis_x_pintu/icons/PlasmicIcon__TrophySolidsvg"; // plasmic-import: RKqBm-edS/icon
 import RightArrowIcon from "./icons/PlasmicIcon__RightArrow"; // plasmic-import: 6MLW-XtXOmG0d4/icon
 
 export const PlasmicHeader__VariantProps = new Array();
@@ -61,7 +61,7 @@ function PlasmicHeader__RenderFunc(props) {
         href={"/"}
         platform={"nextjs"}
       >
-        <LogoIcon
+        <TrophySolidsvgIcon
           className={classNames(projectcss.all, sty.svg__tkY1Y)}
           role={"img"}
         />
@@ -77,32 +77,34 @@ function PlasmicHeader__RenderFunc(props) {
         <Button
           className={classNames("__wab_instance", sty.button__h2EMe)}
           color={"clear"}
-          link={"/scores"}
+          link={"/about"}
           size={"compact"}
         >
-          {"Features"}
+          {"About"}
         </Button>
 
         <Button
           className={classNames("__wab_instance", sty.button__xDwD0)}
           color={"clear"}
-          link={"/pricing"}
+          link={"/scores"}
           size={"compact"}
         >
-          {"Pricing"}
+          {"Scores"}
         </Button>
 
         <Button
           className={classNames("__wab_instance", sty.button__jArR)}
           color={"clear"}
+          link={"/faq"}
           size={"compact"}
         >
-          {"Sign in"}
+          {"FAQ"}
         </Button>
 
         {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
           <Button
             className={classNames("__wab_instance", sty.button__bIz82)}
+            color={"red"}
             endIcon={
               <RightArrowIcon
                 className={classNames(projectcss.all, sty.svg__pXYX)}

@@ -53,12 +53,6 @@ function PlasmicAvatar__RenderFunc(props) {
             displayMinHeight={"0"}
             displayMinWidth={"0"}
             displayWidth={"100%"}
-            src={{
-              src: "/plasmic/simple_light_landing_page/images/profilepic.png",
-              fullWidth: 192,
-              fullHeight: 192,
-              aspectRatio: undefined
-            }}
           />
         ),
 
