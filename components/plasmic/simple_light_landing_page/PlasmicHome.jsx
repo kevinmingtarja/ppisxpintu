@@ -29,6 +29,8 @@ import plasmic_library_plasmic_color_type_css from "../library_plasmic_color_typ
 import projectcss from "./plasmic_simple_light_landing_page.module.css"; // plasmic-import: tKTnPCKDkyqVsBLoY29HS4/projectcss
 import sty from "./PlasmicHome.module.css"; // plasmic-import: yOP6IrvdsVj-G/css
 import RightArrowIcon from "./icons/PlasmicIcon__RightArrow"; // plasmic-import: 6MLW-XtXOmG0d4/icon
+import InstagramsvgIcon from "../ppis_x_pintu/icons/PlasmicIcon__Instagramsvg"; // plasmic-import: QW9K0OUTp/icon
+import GithubIconIcon from "./icons/PlasmicIcon__GithubIcon"; // plasmic-import: aYYl40-BIKRWKP/icon
 
 export const PlasmicHome__VariantProps = new Array();
 
@@ -278,6 +280,38 @@ function PlasmicHome__RenderFunc(props) {
             </p.Stack>
           </Section>
 
+          <Section
+            data-plasmic-name={"sponsors"}
+            data-plasmic-override={overrides.sponsors}
+            className={classNames("__wab_instance", sty.sponsors)}
+            hasSubtitle={true}
+            hasTitle={true}
+            subtitle={null}
+            title={
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__cSvP
+                )}
+              >
+                {"Sponsors (placeholder)"}
+              </div>
+            }
+          >
+            <div className={classNames(projectcss.all, sty.freeBox__vidwr)}>
+              <InstagramsvgIcon
+                className={classNames(projectcss.all, sty.svg__tbVrV)}
+                role={"img"}
+              />
+
+              <GithubIconIcon
+                className={classNames(projectcss.all, sty.svg__duGrr)}
+                role={"img"}
+              />
+            </div>
+          </Section>
+
           {true ? (
             <Section
               data-plasmic-name={"howItWorks"}
@@ -488,6 +522,7 @@ const PlasmicDescendants = {
     "topSection",
     "solutions",
     "columns",
+    "sponsors",
     "howItWorks",
     "validation",
     "testimonial",
@@ -499,6 +534,7 @@ const PlasmicDescendants = {
   topSection: ["topSection"],
   solutions: ["solutions", "columns"],
   columns: ["columns"],
+  sponsors: ["sponsors"],
   howItWorks: ["howItWorks"],
   validation: ["validation", "testimonial"],
   testimonial: ["testimonial"],
@@ -539,6 +575,7 @@ export const PlasmicHome = Object.assign(
     topSection: makeNodeComponent("topSection"),
     solutions: makeNodeComponent("solutions"),
     columns: makeNodeComponent("columns"),
+    sponsors: makeNodeComponent("sponsors"),
     howItWorks: makeNodeComponent("howItWorks"),
     validation: makeNodeComponent("validation"),
     testimonial: makeNodeComponent("testimonial"),
